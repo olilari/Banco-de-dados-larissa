@@ -1,9 +1,3 @@
-<?php
-include "conexao.php"; // inclui o arquivo de conexão
-
-$result = mysqli_query($conexao, "SELECT * FROM pedidos"); // exemplo de consulta
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,17 +5,16 @@ $result = mysqli_query($conexao, "SELECT * FROM pedidos"); // exemplo de consult
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Cadastro</h1>
-    <form>
-<style>
-   
-        <input type="text">
-        <input type="password">
-        <input type="email">
 
-        <button type="submit">
+    <h1>Formulário</h1>
+    <form class="Larissa">
+        <h3>Cadastro</h3>
+        <input type="text" placeholder="Login" id="login">
+        <input type="password" placeholder="Senha" id="senha">
+        <input type="submit" onclick="logar(); return false">
 
 </body>
 </html>
