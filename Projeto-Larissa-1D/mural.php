@@ -1,7 +1,6 @@
 <?php
 include "conexao.php";
 
-// Inserir novo pedido/recado
 if(isset($_POST['cadastra'])){
     $nome  = mysqli_real_escape_string($conexao, $_POST['nome']);
     $email = mysqli_real_escape_string($conexao, $_POST['email']);
@@ -69,7 +68,9 @@ while($res = mysqli_fetch_assoc($seleciona)){
 }
 ?>
 
-<div id="footer">
+<div ID="footer">
+ 
+
 
 </div>
 </div>
