@@ -1,6 +1,7 @@
 <?php
 include "conexao.php";
 
+//Fecha a página do vs code
 
 if(isset($_POST['atualiza'])){
     $idatualiza = intval($_POST['id']);

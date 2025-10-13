@@ -1,4 +1,6 @@
 body  {
-    background-color: rgb(102, 3, 39);
-     color: rgb(255, 255, 255);
+    background-image: url("https://www.ahnegao.com.br/wp-content/uploads/2020/02/imagens-1.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
